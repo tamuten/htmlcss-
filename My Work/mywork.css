@@ -1,0 +1,175 @@
+html {
+  width:100%;
+}
+
+body {
+  margin:0;
+  font-size:14px;
+}
+
+header {
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  margin-right:auto;
+}
+
+.header-right ul {
+  display: flex;
+  list-style: none;
+}
+
+.header-right ul li {
+  margin-left:32px;
+}
+
+.header-right ul li a {
+  color:inherit;
+  text-decoration: none;
+}
+
+.header-right ul li a :hover {
+  opacity: 0.3;
+}
+
+#instagram {
+  width: 20px;
+}
+
+.mainvisual {
+  height:400px;
+  margin-bottom:80px;
+}
+
+.mainvisual img {
+  width:100%;
+  height:420px;
+  object-fit: cover;
+}
+
+.about {
+
+}
+
+.title {
+  font-size: 20px;
+  display:flex;
+  justify-content: center;
+}
+
+.content {
+  margin-top:40px;
+  margin-bottom:80px;
+}
+
+.images img {
+  width:250px;
+}
+
+.images .line1 {
+  margin-top:50px;
+  margin-bottom:30px;
+}
+
+.images{
+  margin-bottom:80px;
+}
+
+#line {
+  display:flex;
+  justify-content: center;
+}
+
+.middle {
+  margin:0 30px 0 30px;
+}
+
+table {
+  width:100%;
+}
+
+.news td {
+  border-top:1px solid lightgrey;
+
+}
+
+.last {
+  border-bottom:1px solid lightgrey;
+}
+
+.tdleft {
+  padding:15px;
+}
+
+.tdright {
+  padding:15px 15px 15px 80px;
+}
+
+.contact-right{
+  padding-left:60px;
+}
+
+input[type="text"], textarea {
+  width:100%;
+  font-size:15px;
+  padding:10px 5px;
+  border:1px solid lightgrey;
+  font-family:  "メイリオ", Meiryo, serif;
+}
+
+.contact textarea {
+  height:150px;
+}
+
+:focus{
+  outline:none;
+}
+
+.contact td {
+  vertical-align: top;
+  border-width: medium;
+}
+
+.label {
+  width:50px;
+}
+
+.contact table {
+  border-collapse:separate;
+  border-spacing:10px;
+}
+
+.submitBtn {
+  text-align: center;
+  margin-top:40px;
+}
+
+.submitBtn input {
+  width:200px;
+  background-color: #24292e;
+  color:#fff;
+  border:solid 1px #24292e;
+  padding:15px 0;
+}
+
+footer {
+  height:30px;
+  background-color:black;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+footer p {
+  color:white;
+  font-size:10px;
+}
