@@ -7,30 +7,86 @@ body {
   font-size:14px;
 }
 
-header {
-  height: 270px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media screen and (min-width:760px) {
+  header {
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-logo {
+    margin-right:auto;
+  }
+
+  .header-right ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .header-right ul li {
+    margin-left:32px;
+  }
+
+  #wrapper {
+    max-width: 840px;
+    margin: 0 auto;
+  }
+
+  .mobileHidden {
+    display:inline;
+  }
+
+  .desktopHidden {
+    display:none;
+  }
+
 }
 
-#wrapper {
-  max-width: 840px;
-  margin: 0 auto;
+
+
+
+@media screen and (min-width: 480px) and (max-width:760px) {
+  header {
+    height: 80px;
+    display:block;
+    text-align:center;
+
+  }
+
+  .header-logo {
+    margin-top:20px;
+  }
+
+  .header-right ul {
+    display: flex;
+    list-style: none;
+    padding:0;
+    justify-content: center;
+    align-items: center;
+    font-size:13px;
+    margin-top:0;
+  }
+
+  .header-right ul li {
+    margin-left:20px;
+  }
+
+  #wrapper {
+    padding: 0 4%;
+  }
+
+  .desktopHidden {
+    display:inline;
+  }
+
+  .mobileHidden {
+    display:none;
+  }
 }
 
-.header-logo {
-  margin-right:auto;
-}
 
-.header-right ul {
-  display: flex;
-  list-style: none;
-}
 
-.header-right ul li {
-  margin-left:32px;
-}
 
 .header-right ul li a {
   color:inherit;
@@ -38,7 +94,7 @@ header {
 }
 
 .header-right ul li a :hover {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 #instagram {
