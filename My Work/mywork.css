@@ -41,6 +41,48 @@ body {
     display:none;
   }
 
+  .images img {
+    width:250px;
+  }
+
+  .images .line1 {
+    margin-top:50px;
+    margin-bottom:30px;
+  }
+
+  .images{
+    margin-bottom:80px;
+  }
+
+  #line {
+    display:flex;
+    justify-content: center;
+  }
+
+  .middle {
+    margin:0 30px 0 30px;
+  }
+
+
+
+
+  .news td {
+    border-top:1px solid lightgrey;
+
+  }
+
+  .last {
+    border-bottom:1px solid lightgrey;
+  }
+
+  .tdleft {
+    padding:15px;
+  }
+
+  .tdright {
+    padding:15px 15px 15px 80px;
+  }
+
 }
 
 
@@ -83,18 +125,46 @@ body {
   .mobileHidden {
     display:none;
   }
+
+  .image {
+    display:block;
+    width:100%;
+    margin-bottom:20px;
+  }
+
+  .images img {
+    width:100%;
+  }
+
+  .news td {
+    display:block;
+  }
+
+  .tdleft {
+    padding:15px 15px 0 15px;
+    border-top:1px solid lightgrey;
+  }
+
+  .tdright {
+    padding: 0 15px 15px 15px;
+  }
+
+  .news table {
+    border-bottom: 1px solid lightgrey;
+  }
 }
 
 
 
 
 .header-right ul li a {
-  color:inherit;
+  color:black;
   text-decoration: none;
 }
 
 .header-right ul li a :hover {
   opacity: 0.5;
+  color: grey;
 }
 
 #instagram {
@@ -127,48 +197,14 @@ body {
   margin-bottom:80px;
 }
 
-.images img {
-  width:250px;
-}
-
-.images .line1 {
-  margin-top:50px;
-  margin-bottom:30px;
-}
-
-.images{
-  margin-bottom:80px;
-}
-
-#line {
-  display:flex;
-  justify-content: center;
-}
-
-.middle {
-  margin:0 30px 0 30px;
-}
-
 table {
   width:100%;
 }
 
-.news td {
-  border-top:1px solid lightgrey;
 
-}
 
-.last {
-  border-bottom:1px solid lightgrey;
-}
 
-.tdleft {
-  padding:15px;
-}
 
-.tdright {
-  padding:15px 15px 15px 80px;
-}
 
 .contact-right{
   padding-left:60px;
@@ -179,7 +215,7 @@ input[type="text"], textarea {
   font-size:15px;
   padding:10px 5px;
   border:1px solid lightgrey;
-  font-family:  "メイリオ", Meiryo, serif;
+  font-family:  "メイリオ", Meiryo;
 }
 
 .contact textarea {
