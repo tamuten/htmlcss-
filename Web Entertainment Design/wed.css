@@ -1,0 +1,42 @@
+body {
+  margin:0;
+  font-size:14px;
+}
+
+header{
+  background-color:lightgrey;
+  height:80px;
+  display:block;
+}
+
+.header-logo {
+  height:21px;
+
+}
+
+.header-logo img {
+  height:100%;
+  padding:20px 0 0 15px;
+}
+
+ul {
+  list-style:none;
+  display:flex;
+  padding-left:0;
+  margin-top:27px;
+}
+
+ul li {
+  margin:0 15px;
+}
+
+ul li a {
+  text-decoration:none;
+  color:black;
+}
+
+#mainvisual img {
+  height:650px;
+  width:100%;
+  object-fit:cover;
+}
