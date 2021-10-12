@@ -83,8 +83,9 @@ body {
     padding:15px 15px 15px 80px;
   }
 
-  .label {
-    width:50px;
+  .contact td {
+    vertical-align: top;
+    border-width: medium;
   }
 
   .contact-right{
@@ -95,6 +96,7 @@ body {
     border-collapse:separate;
     border-spacing:10px;
   }
+
 }
 
 
@@ -168,6 +170,11 @@ body {
   .contact td {
     display:block;
   }
+
+  .label {
+    padding-top:10px;
+  }
+
 }
 
 
@@ -217,6 +224,21 @@ table {
   width:100%;
 }
 
+
+
+
+
+
+
+input[type="text"], textarea {
+  width:100%;
+  font-size:15px;
+  padding:10px 5px;
+  border:1px solid lightgrey;
+  font-family:  "メイリオ", Meiryo;
+  box-sizing: border-box;
+}
+
 .contact textarea {
   height:150px;
 }
@@ -225,18 +247,13 @@ table {
   outline:none;
 }
 
-.contact td {
-  vertical-align: top;
-  border-width: medium;
+
+
+.label {
+  width:50px;
 }
 
-input[type="text"], textarea {
-  width:100%;
-  font-size:15px;
-  padding:10px;
-  border:1px solid lightgrey;
-  font-family:  "メイリオ", Meiryo;
-}
+
 
 .submitBtn {
   text-align: center;
