@@ -5,7 +5,6 @@ body {
 }
 
 header{
-
   height:80px;
   display:block;
 }
@@ -20,20 +19,24 @@ header{
   padding:20px 0 0 15px;
 }
 
-ul {
+header ul {
   list-style:none;
   display:flex;
   padding-left:0;
   margin-top:27px;
 }
 
-ul li {
+header ul li {
   margin:0 15px;
 }
 
-ul li a {
+header ul li a {
   text-decoration:none;
   color:black;
+}
+
+#mainvisual {
+  margin-bottom:80px;
 }
 
 #mainvisual img {
@@ -47,15 +50,127 @@ ul li a {
 }
 
 .title {
-  margin-top:80px;
+  margin-top:20px;
+  margin-bottom:60px;
 }
 
 .title h3 {
   font-family: sans-serif;
-  font-size:30px;
+  font-size:35px;
   margin:0;
+  font-weight:normal;
+  letter-spacing:0.3em;
 }
 
 .title p{
   margin:0;
+  position:relative;
+}
+
+.title p:after {
+  content:"";
+  display:block;
+  width:40px;
+  height:1px;
+  background-color: black;
+  position: absolute;
+  bottom:-25px;
+  left:0px;
+}
+
+.title p .bar {
+  border-bottom:1px grey solid;
+}
+
+#business {
+  margin-bottom:60px;
+}
+
+#business ul li {
+  list-style:none;
+
+}
+
+#business span {
+  font-weight:bold;
+}
+
+#business img {
+  width:100%;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+
+
+.content ul {
+  padding-left:0;
+}
+
+#news li {
+  list-style:none;
+  margin-bottom:20px;
+  padding:10px 0;
+}
+
+.date-area span {
+  margin-left:10px;
+  padding:4px 7px;
+  background-color: black;
+  color:white;
+  font-size:0.9em;
+}
+
+.aboutvisual {
+  margin-top:60px;
+}
+
+.aboutvisual img {
+  width:100%;
+  height:300px;
+  object-fit: cover;
+}
+
+#company {
+
+}
+
+#company .text {
+  padding:40px 20px;
+  background-color:white;
+}
+
+#company img {
+  width:100%;
+  height:400px;
+  object-fit:cover;
+  margin-top:20px;
+}
+
+.content p {
+  line-height:1.8em;
+}
+
+footer {
+  background-color:white;
+  padding-bottom:40px;
+}
+
+footer .text{
+  padding:0 3%;
+}
+
+footer .inner-text {
+  padding:40px 0;
+}
+
+footer img {
+  height:21px;
+}
+
+footer p {
+  margin:0;
+}
+
+footer .copyright {
+  font-size:9px;
 }
