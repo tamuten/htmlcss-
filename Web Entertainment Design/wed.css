@@ -6,7 +6,12 @@ body {
 
 header{
   height:80px;
-  display:block;
+}
+
+@media screen and (min-width:768px){
+  header {
+    display:flex;
+  }
 }
 
 .header-logo {
@@ -144,6 +149,7 @@ header ul li a {
   height:400px;
   object-fit:cover;
   margin-top:20px;
+  margin-bottom:0;
 }
 
 .content p {
