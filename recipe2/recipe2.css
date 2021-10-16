@@ -1,8 +1,12 @@
+html {
+  font-family:Helvetica Neue, Arial, Hiragino Sans, Meiryo, sans-serif;
+}
+
 body {
   margin:0;
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:834px){
   .container {
     display:flex;
   }
