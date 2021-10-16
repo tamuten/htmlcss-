@@ -1,0 +1,112 @@
+body {
+  margin:0;
+}
+
+@media screen and (min-width:768px){
+  .container {
+    display:flex;
+  }
+
+  .flex-item {
+    flex:1;
+  }
+
+  .container img {
+    height:700px;
+    object-fit: cover;
+  }
+
+  .wrapper-in{
+    padding:0 5%;
+  }
+}
+
+.container img {
+  width:100%;
+}
+
+.wrapper {
+  padding:40px 5% 0 5%;
+}
+
+.title, .material {
+  margin-bottom:40px;
+}
+
+.title h1 {
+  font-size:28px;
+  margin-top:0;
+}
+
+.text h2 {
+  font-size:20px;
+  padding-bottom:6px;
+  border-bottom:1px solid lightgrey;
+}
+
+dl {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+dt {
+  width:90%;
+  line-height:2.3em;
+  border-bottom:1px dotted lightgrey;
+}
+
+dd {
+  margin:0;
+  width:10%;
+  text-align:right;
+  line-height:2.3em;
+  border-bottom:1px dotted lightgrey;
+}
+
+.howto ol {
+  padding-left:20px;
+}
+
+.howto ol li {
+  line-height:2.2em;
+  border-bottom:1px dotted lightgrey;
+}
+
+.btn {
+  text-align:center;
+  margin:60px 0 90px 0;
+}
+
+.btn a {
+  text-decoration:none;
+  color:black;
+  font-size:14px;
+  padding:20px 60px;
+  border:1px solid black;
+  display:inline-block;
+}
+
+.link {
+}
+
+.link ul {
+  display:flex;
+  justify-content: center;
+  list-style:none;
+  padding-left:0;
+}
+
+.link ul li {
+  margin:0 10px;
+}
+
+.link ul li a {
+  font-size:11px;
+  color:black;
+}
+
+.copyright {
+  font-size:11px;
+  text-align:center;
+  margin-bottom:20px;
+}
