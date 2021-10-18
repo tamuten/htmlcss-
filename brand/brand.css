@@ -45,7 +45,7 @@ header {
   font-size:14px;
 }
 
-.container {
+.wrapper {
   padding:0 18px;
 }
 
@@ -53,9 +53,18 @@ header {
   margin:0;
 }
 
-.concept-img img {
+.img img {
   width:100%;
   display:block;
+}
+
+.title {
+  margin-top:15px;
+}
+
+
+.concept, .work {
+  margin-bottom:70px;
 }
 
 .title h2 {
@@ -67,4 +76,67 @@ header {
 
 .title p {
   margin-bottom:25px;
+}
+
+footer {
+  display:flex;
+  align-items:center;
+}
+
+.footer-logo {
+  margin:20px auto 20px 0;
+}
+
+.footer-logo img {
+  display:block;
+  height:15px;
+}
+
+footer p {
+  margin:0;
+}
+
+@media screen and (min-width:767px){
+  .header-out {
+    padding:4% 5% 0 5%;
+  }
+
+  header {
+    padding:30px 0;
+  }
+
+  .concept, .work {
+    display:flex;
+    align-items:center;
+  }
+
+  .work {
+    flex-flow:row-reverse;
+  }
+
+  .img {
+    width:50%;
+  }
+
+  .describe {
+    width:50%;
+  }
+
+  .describe-in {
+    padding:0 15%;
+  }
+
+  .title {
+    margin-top:0;
+  }
+
+  .title h2 {
+    font-size:1.5rem;
+  }
+
+  .wrapper {
+    padding:0 2%;
+    max-width:960px;
+    margin:0 auto;
+  }
 }
