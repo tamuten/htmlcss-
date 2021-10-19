@@ -101,6 +101,12 @@ footer p {
     padding:4% 5% 0 5%;
   }
 
+  .mainvisual img {
+    max-width: 100%;
+    vertical-align: bottom;
+    height: auto;
+  }
+
   header {
     padding:30px 0;
   }
