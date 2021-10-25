@@ -132,6 +132,23 @@ header {
 
 
 
+.black {
+  background-color: black;
+  color:white;
+}
+
+.footer-logo {
+  text-align: center;
+}
+
+.white {
+  margin:30px 0;
+  text-align: center;
+  font-size:0.85em;
+}
+
+
+
 @media screen and (min-width:896px){
   .images {
     display:flex;
@@ -145,5 +162,18 @@ header {
 
   .archive, .new {
     width:49%;
+  }
+
+  .catalog, .antique {
+    display:flex;
+    align-items:center;
+  }
+
+  .works img {
+    width:50%;
+  }
+
+  .flex-items {
+    display:flex;
   }
 }
