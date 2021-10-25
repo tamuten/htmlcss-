@@ -1,11 +1,21 @@
 body {
   margin:0;
+  font-size:14px;
+  font-family: Arial, Hiragino Sans, Hiragino Kaku Gothic ProN, Meiryo, sans-serif;
+}
+
+h1, h2, p {
+  margin:0;
 }
 
 header {
   background-image: url("img/mainvisual.jpeg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat:no-repeat;
   height:100vh;
   display:flex;
+  margin-bottom:80px;
 }
 
 .header-logo {
@@ -15,4 +25,125 @@ header {
 
 .header-logo img {
   height:40px;
+}
+
+.title {
+  text-align:center;
+}
+
+.title h1 {
+  font-size:1.75em;
+  margin-bottom:20px;
+}
+
+.images {
+  margin-bottom:80px;
+}
+
+.wrapper {
+  padding:0 5%;
+}
+
+.images :hover {
+  opacity:0.7;
+}
+
+.images img {
+  width:100%;
+  display:block;
+  margin-top:35px;
+}
+
+.archive, .new {
+  position:relative;
+}
+
+.text {
+  position:absolute;
+  left:0;
+  right:0;
+  top:40%;
+  padding:20px 30px;
+  background-color:rgba( 0, 0, 0, 0.5);
+  color:white;
+  width:230px;
+  text-align:center;
+  margin:0 auto;
+  display:block;
+}
+
+.text p {
+  font-weight:bold;
+}
+
+.fashion {
+  background-image: url("img/fashion.jpeg");
+  background-size:cover;
+  background-position: center top;
+  background-repeat:no-repeat;
+  height:500px;
+  width:100%;
+  margin-bottom:80px;
+}
+
+.describe {
+  padding-top:60px;
+  margin-bottom:40px;
+}
+
+.btn a {
+  padding:15px 35px;
+  border:1px solid black;
+  text-decoration:none;
+  color:black;
+  font-size:0.9em;
+}
+
+.works {
+  background-color:#f5f5f5;
+}
+
+.catalog img, .antique img {
+  width:100%;
+  display:block;
+  padding-bottom:35px;
+}
+
+.catalog h2, .antique h2 {
+  margin:40px 0;
+  font-size:1.75em;
+}
+
+.des h2, .des .btn {
+  text-align:center;
+}
+
+.middle {
+  margin:30px 0;
+}
+
+.bottom {
+  margin-top:30px;
+}
+
+.antique .btn {
+  margin:80px 0;
+}
+
+
+
+@media screen and (min-width:896px){
+  .images {
+    display:flex;
+    justify-content:space-between;
+  }
+
+  .mag {
+    max-width:1200px;
+    margin:0 auto;
+  }
+
+  .archive, .new {
+    width:49%;
+  }
 }
