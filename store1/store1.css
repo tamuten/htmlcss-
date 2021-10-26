@@ -103,15 +103,26 @@ header {
   background-color:#f5f5f5;
 }
 
+.catalog-antique {
+  padding:30px 0;
+}
+
+.catalog {
+  margin-bottom:60px;
+}
+
 .catalog img, .antique img {
   width:100%;
   display:block;
-  padding-bottom:35px;
+}
+
+.catalog img {
+  margin-bottom:80px;
 }
 
 .catalog h2, .antique h2 {
-  margin:40px 0;
-  font-size:1.75em;
+  margin-bottom:40px;
+  font-size:1.7em;
 }
 
 .des h2, .des .btn {
@@ -133,7 +144,7 @@ header {
 
 
 .black {
-  background-color: black;
+  background-color: #303030;
   color:white;
 }
 
@@ -156,7 +167,7 @@ header {
   }
 
   .mag {
-    max-width:1200px;
+    max-width:1180px;
     margin:0 auto;
   }
 
@@ -167,13 +178,46 @@ header {
   .catalog, .antique {
     display:flex;
     align-items:center;
+    justify-content:space-between;
   }
 
   .works img {
     width:50%;
   }
 
+  .catalog-antique {
+    padding:65px 0;
+  }
+
+  .works img, .works .des {
+    width:48%;
+  }
+
+  .catalog img {
+    margin-bottom:0;
+  }
+
+  .catalog {
+    margin-bottom:120px;
+  }
+
+  .antique .btn {
+    margin-bottom:0;
+  }
+
   .flex-items {
     display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top:95px;
+    padding-bottom:95px;
+  }
+
+  .flex-item {
+    width:33%;
+  }
+
+  .footer-logo {
+    text-align:left;
   }
 }
