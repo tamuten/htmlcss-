@@ -1,0 +1,61 @@
+body, h1, h2, h3, p {
+  margin: 0;
+}
+
+body {
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+
+}
+
+a {
+  text-decoration: none;
+  color: #202020;
+}
+
+.header-logo {
+  text-align: center;
+  margin-top: 36px;
+  margin-bottom:12px;
+}
+
+.header-logo img {
+  height: 19px;
+}
+
+.wrapper {
+  padding: 0 3%;
+}
+
+.header-menu {
+  display:flex;
+}
+
+.menu {
+  margin-right:auto;
+}
+
+.header-menu ul {
+  display: flex;
+  margin:14px 0;
+}
+
+.menu ul li {
+  margin-right:14px;
+}
+
+.login-menu ul li {
+  margin-left:14px;
+}
+
+.mainvisual img {
+  width:100%;
+}

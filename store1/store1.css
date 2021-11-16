@@ -44,7 +44,7 @@ header {
   padding:0 5%;
 }
 
-.images :hover {
+.images a:hover {
   opacity:0.7;
 }
 
@@ -150,12 +150,35 @@ header {
 
 .footer-logo {
   text-align: center;
+  padding:30px 0;
+}
+
+.black li, .black p {
+  font-size:0.86em;
+  line-height:2;
+}
+
+.black ul {
+  padding-left:10px;
+  list-style:"- ";
+}
+
+.footer1 {
+  margin-bottom:30px;
+}
+
+.footer2 {
+  padding-bottom:60px;
 }
 
 .white {
   margin:30px 0;
   text-align: center;
   font-size:0.85em;
+}
+
+footer h3 {
+  margin:0 0 10px 0;
 }
 
 
@@ -208,7 +231,6 @@ header {
   .flex-items {
     display:flex;
     justify-content: space-between;
-    align-items:center;
     padding-top:95px;
     padding-bottom:95px;
   }
@@ -217,7 +239,16 @@ header {
     width:33%;
   }
 
+  .footer1 {
+    margin:0;
+  }
+
+  .footer2 {
+    padding-bottom:0;
+  }
+
   .footer-logo {
     text-align:left;
+    padding:60px 0;
   }
 }
