@@ -94,7 +94,7 @@ header {
   margin:30px 0;
 }
 
-.select table {
+.select table , .size table {
   border-collapse:collapse;
   border-spacing:0;
   width:100%;
@@ -103,7 +103,27 @@ header {
   vertical-align: middle;
 }
 
-.select table td {
+.size {
+  margin:40px 0 20px 0;
+}
+
+.size table {
+  border:1px solid #c3c3c3;
+}
+
+.size table th, .size table td {
+  border-right:1px solid #c3c3c3;
+}
+
+.size thead, .size tr {
+  border-bottom:1px solid #c3c3c3;
+}
+
+.size thead, .size th {
+  background-color:#ecebeb;
+}
+
+.select table td , .size table td{
   padding:10px;
 }
 
@@ -132,6 +152,13 @@ header {
   padding:18px 0;
   background-color: #555555;
   color:#ffffff;
+}
+
+footer {
+  margin-top:100px;
+  padding:10px 0;
+  font-size:0.5rem;
+  text-align:center;
 }
 
 @media screen and (min-width:896px){
